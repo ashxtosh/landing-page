@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header, footer {
+    background-color: #1f2937;
+    padding: 10px 60px;
+    padding-bottom: 60px;
+    color: white
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: smaller;
+    margin-right: 10px;
+}
+
+.top_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.sign_up_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_sign_up h4 {
+    color: rgb(160, 231, 231);
+    font-size: 48px;
+}
