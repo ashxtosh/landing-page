@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 
@@ -49,6 +50,41 @@ a {
     cursor: pointer;
 }
 
+.info-section{
+    padding: 40px;
+
+}
+
+.info-section h2{
+    color: black;
+    text-align: center;
+
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.card-grid {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.card-box {
+    width: auto;
+    height: 120px;
+    border: 3px solid #4A90E2;
+    border-radius: 8px;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.card .card-text {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+}
 /* Advance */
 .tooltip {
   position: relative;
